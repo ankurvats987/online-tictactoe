@@ -1,19 +1,19 @@
 # online-tictactoe
 
-Welcome to the Online Tic Tac Toe game! This project allows two players on separate devices to enjoy a game of Tic Tac Toe and chat over a same network. One device will act as the server, while the other two devices will be the clients.
+Welcome to the Online Tic Tac Toe game! This project allows two players on separate devices to enjoy a game of Tic Tac Toe and chat over a network. One device will act as both the server and a client, while the other device will only run the client.
 
 ## How to Play
 
 1. **Set Up the Server:**
-   - Run the `Server.java` file on the device that will act as the server.
+   - Run the `Server.java` file on the device that will act as both the server and a client.
    - Make a note of the server's IP address.
 
-2. **Connect Clients:**
-   - Run the `Client.java` file on both player devices.
+2. **Connect Client:**
+   - Run the `Client.java` file on the player's device.
    - Open the `Client.java` file and replace the placeholder `IP_ADDRESS` with the actual IP address of the server.
 
 3. **Start the Game:**
-   - With the server and clients running, the game is ready to begin.
+   - With the server and client running on one device and the client running on the other, the game is ready to begin.
    - Follow the on-screen instructions to make your moves.
    - Use the chat functionality to communicate with your opponent.
 
@@ -31,7 +31,3 @@ Welcome to the Online Tic Tac Toe game! This project allows two players on separ
 
 - Java
 - Socket Programming
-
-Feel free to contribute, report issues, or suggest enhancements. Enjoy playing Tic Tac Toe online with chat capabilities and challenge your friends!
-
-*Happy Gaming and Chatting!*
