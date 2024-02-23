@@ -11,7 +11,7 @@ public class Client {
 
     public static void main(String[] args) {
         try {
-            socket = new Socket("[server-device-ipaddesss]", 9090);
+            socket = new Socket("IP_ADDRESS", 9090);
             System.out.println("[SERVER] connection established.");
 
             new Thread(new ServerMessageReader(socket)).start();
