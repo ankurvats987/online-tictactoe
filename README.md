@@ -1,6 +1,6 @@
 # online-tictactoe
 
-Welcome to the Online Tic Tac Toe game! This project allows two players on separate devices to enjoy a game of Tic Tac Toe and chat over a network. One device will act as the server, while the other two devices will be the clients.
+Welcome to the Online Tic Tac Toe game! This project allows two players on separate devices to enjoy a game of Tic Tac Toe and chat over a same network. One device will act as the server, while the other two devices will be the clients.
 
 ## How to Play
 
